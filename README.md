@@ -89,3 +89,15 @@ Preview locally: `npm run build:styleguide && open styleguide/index.html`.
 
 - ✅ Brand primitives: colours, fonts, the spinner, and future shared marks/logos.
 - ❌ App-specific layout, one-off screens, business logic — those stay in each app.
+
+## ⚠️ This repo is public — no secrets, ever
+
+This repo is public so the style guide can be hosted for free. It must only ever
+contain non-sensitive brand assets (colours, fonts, marks, components).
+
+- **Never commit** API keys, tokens, `.env` files, credentials, or DB schema.
+  Those live in each app, never here. (`.gitignore` blocks the common ones, and
+  GitHub secret-scanning push protection is enabled as a backstop.)
+- **`main` is protected:** all changes go through a pull request — nobody, not
+  even admins, pushes straight to `main`. Outside GitHub users can read/fork but
+  cannot edit; only Shown-Space members with write access can open PRs.

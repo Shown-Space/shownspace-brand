@@ -1,3 +1,18 @@
 node_modules/
 .DS_Store
 *.log
+
+# ── This repo is PUBLIC — never commit anything secret ──────────────────────
+# Env files & credentials (belong in each app, never in the brand kit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets*
+credentials*
+.vscode/
+.idea/
