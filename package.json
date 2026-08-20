@@ -1,0 +1,30 @@
+{
+  "name": "@shownspace/brand",
+  "version": "0.1.0",
+  "description": "Shown Space shared brand kit — tokens + BrandSpinner (web & native), with a generated style guide.",
+  "type": "module",
+  "exports": {
+    "./tokens": "./src/tokens.js",
+    "./web": "./src/web/BrandSpinner.jsx",
+    "./native": "./src/native/BrandSpinner.jsx"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build:styleguide": "node styleguide/build.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    },
+    "react-native-reanimated": {
+      "optional": true
+    }
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
