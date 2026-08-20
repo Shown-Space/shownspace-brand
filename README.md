@@ -3,7 +3,7 @@
 The Shown Space brand kit. **One source of truth** for our colours, type, and the
 disc spinner — shared by the website, the app, and anything else we build.
 
-> 🎨 **Visible brand page:** _(add the GitHub Pages URL here once enabled)_
+> 🎨 **Visible brand page:** https://shown-space.github.io/shownspace-brand/
 > It's generated from the tokens on every push, so what you see there is always
 > exactly what's in the code. Don't screenshot the brand into slides — link this.
 
